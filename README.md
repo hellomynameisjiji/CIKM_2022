@@ -35,10 +35,11 @@ dp: boolean for training victim model with differential privacy
 dp_type: type of differential privacy algorithm ['sgd', 'gan']
 
 Output:
+```
 ---- White-box attack result on ctgan for alphabank ----
 - Args:: lambda3: 0.001; query_size: 2000; batch_size: 2; initialize_type: random; maxfunc: 1; lbfgs_lr: 0.0001
 - WB AUC: 0.60
 - WB AP: 0.67
 ------------------------------------------
-
+```
    
