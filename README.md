@@ -11,9 +11,10 @@ test_model.py
 
 ## Simulate a membership inference on victim model
 1. Simulate a membership inference on victim model
-'''
+
+```
    example : 'python main.py --gpu_num 0 --attack wb --data alphabank --target ctgan --query_size 2000 --initialize_type random --lambda3 0.001 --batch_size 2 --maxfunc 1 --lbfgs_lr 0.0001 --K --dp --dp_type'
-'''
+```
 Input:
 gpu_num: GPU number to use
 
